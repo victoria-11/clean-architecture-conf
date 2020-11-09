@@ -2,7 +2,7 @@
 
 namespace Works\Repositories;
 
-use Works\Repositories\RepositoryInterface;
+use Models\Repositories\RepositoryInterface;
 use Works\Entities\WorkStatus;
 
 class WorkStatusRepository implements RepositoryInterface

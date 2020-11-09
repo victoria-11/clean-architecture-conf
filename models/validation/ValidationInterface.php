@@ -1,6 +1,6 @@
 <?php
 
-namespace Works\Validation;
+namespace Models\Validation;
 
 use Respect\Validation\Validator;
 

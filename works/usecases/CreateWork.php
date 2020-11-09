@@ -2,26 +2,28 @@
 
 namespace Works\Usecases;
 
-use Works\Usecases\UsecaseInterface;
+use Models\Usecases\UsecaseInterface;
 
 use Works\Repositories\{
     WorkRepository,
     UserRepository,
-    SectionRepository,
     WorkStatusRepository
 };
 
 use Works\Entities\{
     Work,
     User,
-    Section,
     WorkStatus
 };
 
 use Works\Validation\{
     WorkValidation,
-    ValidationInterface
 };
+
+use Models\Validation\ValidationInterface;
+
+use Conferences\Entities\Section;
+use Conferences\Repositories\SectionRepository;
 
 class CreateWork implements UsecaseInterface
 {

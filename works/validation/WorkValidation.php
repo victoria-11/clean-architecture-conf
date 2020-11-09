@@ -2,7 +2,7 @@
 
 namespace Works\Validation;
 
-use Works\Validation\ValidationInterface;
+use Models\Validation\ValidationInterface;
 use Respect\Validation\Validator;
 
 class WorkValidation implements ValidationInterface

@@ -2,7 +2,7 @@
 
 namespace Works\Usecases;
 
-use Works\Usecases\UsecaseInterface;
+use Models\Usecases\UsecaseInterface;
 
 use Works\Repositories\{
     WorkRepository,

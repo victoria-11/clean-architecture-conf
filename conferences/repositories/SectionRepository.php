@@ -1,9 +1,9 @@
 <?php
 
-namespace Works\Repositories;
+namespace Conferences\Repositories;
 
-use Works\Repositories\RepositoryInterface;
-use Works\Entities\Section;
+use Models\Repositories\RepositoryInterface;
+use Conferences\Entities\Section;
 
 class SectionRepository implements RepositoryInterface
 {

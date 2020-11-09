@@ -2,7 +2,7 @@
 
 namespace Works\Entities;
 
-use Works\Entities\EntityInterface;
+use Models\Entities\EntityInterface;
 
 class WorkFile implements EntityInterface
 {

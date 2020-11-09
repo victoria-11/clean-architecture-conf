@@ -1,13 +1,11 @@
 <?php
 
-namespace Works\Entities;
+namespace Conferences\Entities;
 
 use Models\Entities\EntityInterface;
 
-class WorkStatus implements EntityInterface
+class ConferenceStatus implements EntityInterface
 {
-
-    const NEW = 'new';
 
     public int $id;
     public string $name;

@@ -2,7 +2,8 @@
 
 namespace Works\Entities;
 
-use Works\Entities\EntityInterface;
+use Models\Entities\EntityInterface;
+use Conferences\Entities\Section;
 
 class Work implements EntityInterface
 {

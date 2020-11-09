@@ -1,6 +1,6 @@
 <?php
 
-namespace Works\Entities;
+namespace Models\Entities;
 
 interface EntityInterface
 {

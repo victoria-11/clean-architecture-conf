@@ -3,10 +3,11 @@
 namespace Works\Deliveries;
 
 use Works\Usecases\{
-    UsecaseInterface,
     CreateWork,
     CheckWork
 };
+
+use Models\Usecases\UsecaseInterface;
 
 class WorkController
 {

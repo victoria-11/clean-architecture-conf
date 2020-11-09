@@ -2,11 +2,11 @@
 
 namespace Works\Entities;
 
-use Works\Entities\EntityInterface;
+use Models\Entities\EntityInterface;
 
 class University implements EntityInterface
 {
 
-    protected int $id;
-    protected string $title;
+    public int $id;
+    public string $title;
 }

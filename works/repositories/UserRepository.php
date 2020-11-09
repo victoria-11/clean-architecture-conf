@@ -2,7 +2,7 @@
 
 namespace Works\Repositories;
 
-use Works\Repositories\RepositoryInterface;
+use Models\Repositories\RepositoryInterface;
 use Works\Entities\User;
 
 class UserRepository implements RepositoryInterface
