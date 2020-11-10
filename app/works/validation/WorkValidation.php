@@ -12,10 +12,10 @@ class WorkValidation implements ValidationInterface
         $errors = null;
 
         try {
-            Validator::stringType()->check($data['title']);
-            Validator::intType()->check($data['user_id']);
-            Validator::boolType()->check($data['published']);
-            Validator::intType()->check($data['section_id']);
+            Validator::stringType()->check($data['title'] ?? null);
+            Validator::intType()->check($data['user_id'] ?? null);
+            Validator::boolType()->check($data['published'] ?? null);
+            Validator::intType()->check($data['section_id'] ?? null);
         } catch (Respect\Validation\Exceptions\Exception $e) {
             $errors = $e->getMessages();
         }

@@ -28,18 +28,9 @@ use Conferences\Repositories\SectionRepository;
 class CreateWork implements UsecaseInterface
 {
 
-    public function validate(ValidationInterface $validation, array $data): void {
-        $errors = $validation->validate($data);
-
-        if($errors) {
-            print_r($errors);
-            die;
-        }
-    }
-
     public function create(array $data): Work {
         $validation = new WorkValidation();
-        $this->validate($validation, $data);
+        $validation->validate($data);
 
         $work = $this->createEntity($data);
 
